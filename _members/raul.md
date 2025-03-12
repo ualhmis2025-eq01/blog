@@ -7,8 +7,9 @@ layout: default
 
 Soy estudiante de **Ingeniería Informática** en la Universidad de Almería, especializándome en **Ingeniería del Software**. Me apasiona el desarrollo de software, la optimización de sistemas y la resolución de problemas complejos mediante la tecnología.
 
-<img src="assets/img/raul2.jpg" alt="Descripción" width="100" >
-
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/raul2.jpg" alt="Antonio Ordóñez Molina" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</p>
 ## Sobre mí
 
 - 📍 De Melilla, España.
