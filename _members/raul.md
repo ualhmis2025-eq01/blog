@@ -10,6 +10,7 @@ Soy estudiante de **Ingeniería Informática** en la Universidad de Almería, es
 <p align="center">
   <img src="{{ site.baseurl }}/assets/images/raul2.jpg" alt="Antonio Ordóñez Molina" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </p>
+
 ## Sobre mí
 
 - 📍 De Melilla, España.
