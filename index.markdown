@@ -4,6 +4,4 @@
 
 layout: home
 
-<a href="{{ site.baseurl }}/members/" style="display: inline-block; padding: 10px 20px; background-color: #007acc; color: #fff; text-decoration: none; border-radius: 5px;">Ver Miembros</a>
-
 ---
