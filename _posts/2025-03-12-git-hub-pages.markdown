@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cómo desplegar un sitio Jekyll en GitHub Pages"
-date:   2025-03-12
+date:   2025-03-12 
 categories: jekyll deployment github
 ---
 
