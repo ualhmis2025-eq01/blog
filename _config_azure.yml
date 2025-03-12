@@ -21,7 +21,7 @@
 title: UAL HMIS 2025 - Equipo 01
 description: >- # this means to ignore newlines until "baseurl:"
   Página del equipo 01 de la asignatura HMIS 2025 de la Universidad de Almería
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://purple-ground-009654e10.6.azurestaticapps.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ualhmis2025-eq01
 collections:
