@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Antonio Ordóñez Molina
+name: antonio
 nickname: aom387ISO
 avatar: /assets/images/antonio.png
 github: https://github.com/aom387ISO
