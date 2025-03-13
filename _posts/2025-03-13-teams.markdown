@@ -5,7 +5,7 @@ date:   2025-03-13
 categories: jekyll deployment github
 ---
 
-![teams](../assets/images/microsoftteams.jpg)
+<img src="{{ site.baseurl }}/assets/images/microsoftteams.jpg" alt="teams" width="300">
 
 Microsoft Teams se ha convertido en una herramienta esencial para la colaboración en equipos, especialmente en entornos de trabajo híbridos y remotos. En esta entrada, exploraremos cómo organizar eficazmente un equipo utilizando **Teams** para mejorar la productividad y la comunicación.  
 
@@ -22,7 +22,7 @@ Para comenzar a trabajar con Teams, es fundamental estructurar correctamente los
    - Usa canales para organizar temas específicos (ej. “Desarrollo”, “Soporte”, “Administración”).  
    - Define si los canales son estándar o privados.
 
-   ![teams](../assets/images/teamsCanal.png)  
+<img src="{{ site.baseurl }}/assets/images/teamsCanal.png" alt="teams Canal" width="300">
 
 3. **Asignar roles**:  
    - **Propietarios**: Gestionan el equipo y sus configuraciones.  
