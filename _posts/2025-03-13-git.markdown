@@ -5,7 +5,7 @@ date:   2025-03-13
 categories: jekyll deployment github
 ---
 
-![ramas](../assets/images/desarrollo-con-ramas-git.jpg)
+<img src="{{ site.baseurl }}/assets/images/desarrollo-con-ramas-git.jpg" alt="git" width="300">
 
 El control de versiones es clave en el desarrollo de software, y **Git** nos permite gestionar cambios de manera eficiente. 
 Una de las estrategias más utilizadas es la **metodología de ramas basada en Features**, que ayuda a mantener un desarrollo ordenado y colaborativo. 
