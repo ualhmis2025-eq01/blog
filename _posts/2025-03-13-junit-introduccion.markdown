@@ -100,9 +100,4 @@ class CalculadoraTest {
 }
 ```
 
-## Conclusión
-
-JUnit es una herramienta poderosa para escribir pruebas automatizadas en Java. Con este conocimiento básico, puedes mejorar la calidad de tu código y prevenir errores antes de que lleguen a producción.
-
-¡Empieza a probar tu código con JUnit hoy! 🚀
 
