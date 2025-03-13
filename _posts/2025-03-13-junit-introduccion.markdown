@@ -5,6 +5,8 @@ date:   2025-03-12
 categories: jekyll deployment github
 ---
 
+![JUnit](../assets/images/JUnit.svg)
+
 JUnit es un framework de pruebas para Java que permite escribir y ejecutar pruebas automatizadas de manera sencilla. En esta guía, aprenderás cómo crear pruebas unitarias con JUnit.
 
 ## 1. Configuración de JUnit
