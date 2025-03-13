@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Git y la metodología de ramas basadas en features"
+date:   2025-03-13 
+categories: jekyll deployment github
+---
+
+![ramas](../assets/images/desarrollo-con-ramas-git.jpg)
+
+El control de versiones es clave en el desarrollo de software, y **Git** nos permite gestionar cambios de manera eficiente. 
+Una de las estrategias más utilizadas es la **metodología de ramas basada en Features**, que ayuda a mantener un desarrollo ordenado y colaborativo. 
+En esta entrada, exploraremos cómo aplicar esta metodología en un flujo de trabajo real.  
+
+## 📌 ¿Qué es la Metodología de Ramas Basadas en Features?  
+
+Este enfoque consiste en **crear una nueva rama por cada nueva funcionalidad (feature)**, manteniendo el código organizado y evitando cambios directos en la rama principal (**main** o **develop**).  
+
+🔹 **Ventajas:**  
+✅ Facilita el trabajo en paralelo entre desarrolladores.  
+✅ Evita que código inestable llegue a la rama principal.  
+✅ Permite revisiones de código más eficientes con **pull requests**.  
+✅ Reduce conflictos al fusionar cambios.  
+
+## 🌿 Flujo de Trabajo  
+
+El flujo básico con ramas de features se ve así:  
+
+1. **Rama principal (`main` o `develop`)**  
+   - Contiene el código estable y probado.  
+
+2. **Ramas de feature (`feature/nombre-de-la-feature`)**  
+   - Se crean desde `develop` para desarrollar nuevas funcionalidades.  
+
+3. **Fusión a `develop` mediante pull request**  
+   - Una vez finalizado el desarrollo y revisado, se fusiona en `develop`.  
+
+4. **Opcional: integración con ramas de release y hotfix**  
+   - `release/*` para preparar una nueva versión.  
+   - `hotfix/*` para corregir errores críticos en producción.  
+
+## 🛠 Pasos para Implementar Ramas Basadas en Features  
+
+### 1️⃣ Clonar el repositorio y crear una rama feature  
+
+```bash
+git clone https://github.com/usuario/proyecto.git
+cd proyecto
+git checkout -b feature/nueva-funcionalidad develop
+```
+
+### 2️⃣ Realizar cambios y confirmar commits  
+
+```bash
+# Hacer cambios en el código
+git add .
+git commit -m "Añadida nueva funcionalidad X"
+```
+
+### 3️⃣ Subir la rama al repositorio remoto  
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+### 4️⃣ Crear un Pull Request en GitHub/GitLab  
+
+- Ir al repositorio en GitHub/GitLab.  
+- Abrir un **Pull Request (PR)** desde `feature/nueva-funcionalidad` → `develop`.  
+- Asignar revisores y recibir feedback.  
+
+### 5️⃣ Fusionar la rama y eliminarla  
+
+```bash
+git checkout develop
+git pull origin develop
+git merge --no-ff feature/nueva-funcionalidad
+git push origin develop
+git branch -d feature/nueva-funcionalidad
+git push origin --delete feature/nueva-funcionalidad
+```
+
+## 🔥 Buenas Prácticas  
+
+✔️ Usa nombres descriptivos para las ramas (`feature/autenticacion-usuarios`).  
+✔️ Mantén los commits pequeños y bien documentados.  
+✔️ Realiza revisiones de código antes de fusionar a `develop`.  
+✔️ Borra las ramas feature cuando ya no sean necesarias.  
+✔️ Evita trabajar directamente en `main` o `develop`.  
+
